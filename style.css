@@ -58,6 +58,7 @@ body {
 }
 
 a {
+    height: 100%;
     color: inherit;
     text-decoration: none;
 }
@@ -84,26 +85,119 @@ a {
     justify-content: space-around;
 }
 
-.card {
+.social-wrapper {
+    padding: 1% 1%;
+    border-radius: 3px;
+
+    transition: background-color 0.3s ease-in-out;
+
+    --hover-color: rgba(255, 255, 255, 0.3);
+}
+
+#discord-social {
+    --hover-color: rgba(88, 101, 242, 0.3);
+}
+
+#youtube-social {
+    --hover-color: rgba(255, 0, 0, 0.3);
+}
+
+#modrinth-social {
+    --hover-color: rgba(0, 175, 92, 0.3);
+}
+
+.social-wrapper:hover {
+    background-color: var(--hover-color);
+}
+
+.social {
     display: flex;
     flex-direction: column;
     align-items: center;
     gap: 1rem;
 }
 
-.card img {
+.social img {
     max-width: 75px;
     display: inline;
 }
 
-.card p {
+.social p {
     font-family: "Jetbrains Mono";
     font-size: 1.25rem;
 }
 
+#orderium-project {
+    --hover-color: rgba(246, 227, 103, 0.3);
+}
+
+#levio-project {
+    --hover-color: rgba(0, 208, 255, 0.3);
+}
+
+.project-wrapper {
+    max-width: 40%;
+    padding: 0.5% 0.5%;
+    border-radius: 3px;
+
+    transition: background-color 0.3s ease-in-out;
+}
+
+.project-wrapper:hover {
+    background-color: var(--hover-color);
+}
+
+.project {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+}
+
+.project img {
+    max-width: 75px;
+    display: inline;
+    margin: 0 auto;
+}
+
+.project-text {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    font-family: "Jetbrains Mono";
+}
+
+.project-text h3 {
+    font-size: 1.25rem;
+}
+
+.project-text p {
+    color: #b5b5b7;
+}
+
 footer {
-    text-align: center;
-    font-family: "Playfair Display";
+    background-image: linear-gradient(#020618, #050e35);
+    background-color: #020513;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: "Jetbrains Mono";
     font-size: 1rem;
-    color: #a0a0a0;
+
+    padding-top: 5%;
+    padding-bottom: 1%;
+}
+
+.footer-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-column p {
+    color: #bbbbbb;
+}
+
+.footer-column a {
+    color: aqua;
+    text-decoration: underline;
 }

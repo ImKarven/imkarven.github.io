@@ -34,9 +34,9 @@
         <div class="box-layout">
             <h2>Socials</h2>
             <section class="box-section">
-                <div>
+                <div class="social-wrapper" id="github-social">
                     <a
-                        class="card"
+                        class="social"
                         href="https://github.com/ImKarven"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -48,9 +48,9 @@
                         <p>Github</p>
                     </a>
                 </div>
-                <div>
+                <div class="social-wrapper" id="discord-social">
                     <a
-                        class="card"
+                        class="social"
                         href="https://devdiscord.karven.qzz.io/"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -62,9 +62,9 @@
                         <p>Discord</p>
                     </a>
                 </div>
-                <div>
+                <div class="social-wrapper" id="youtube-social">
                     <a
-                        class="card"
+                        class="social"
                         href="https://www.youtube.com/@karv%C9%99n"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -76,9 +76,9 @@
                         <p>YouTube</p></a
                     >
                 </div>
-                <div>
+                <div class="social-wrapper" id="modrinth-social">
                     <a
-                        class="card"
+                        class="social"
                         href="https://modrinth.com/user/Karven"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -90,9 +90,9 @@
                         <p>Modrinth</p>
                     </a>
                 </div>
-                <div>
+                <div class="social-wrapper" id="email-social">
                     <a
-                        class="card"
+                        class="social"
                         href="mailto:karven@atomicmail.io"
                         target="_blank"
                         rel="noopener noreferrer"
@@ -107,34 +107,68 @@
         <div class="box-layout">
             <h2>Projects</h2>
             <section class="box-section">
-                <div>
+                <div class="project-wrapper" id="orderium-project">
                     <a
-                        class="card"
+                        class="project"
                         href="https://modrinth.com/plugin/orderium"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <img height="70" src="./assets/orderium.png" />
-                        <p>Orderium</p>
+                        <div class="project-text">
+                            <h3>Orderium</h3>
+                            <p>
+                                A paper plugin that adds a system to help
+                                enhance your server's economy.
+                            </p>
+                        </div>
                     </a>
                 </div>
 
-                <div>
+                <div class="project-wrapper" id="levio-project">
                     <a
-                        class="card"
+                        class="project"
                         href="https://modrinth.com/datapack/levio"
                         target="_blank"
                         rel="noopener noreferrer"
                     >
                         <img height="70" src="./assets/leviathan-ocean.png" />
-                        <p>Leviathan Ocean</p>
+
+                        <div class="project-text">
+                            <h3>Leviathan Ocean</h3>
+                            <p>
+                                A minecraft data pack that makes oceans terrain
+                                very deep.
+                            </p>
+                        </div>
                     </a>
                 </div>
             </section>
         </div>
 
         <footer>
-            <p>© 2026 Nguyễn Khánh Tùng ("Karven")</p>
+            <div class="footer-column">
+                <h3>This webpage</h3>
+                <p>
+                    This webpage is
+                    <a
+                        href="https://github.com/ImKarven/imkarven.github.io"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        >source-available</a
+                    >
+                    on Github
+                </p>
+                <p>© 2026 Nguyễn Khánh Tùng (Karven)</p>
+            </div>
+
+            <div class="footer-column">
+                <h3>Sources</h3>
+                <p>Fonts used are Playfair Display and Jetbrains Mono</p>
+                <p>Made using plain HTML and CSS</p>
+                <p>Deployed using Github Pages</p>
+                <p>Icons are from Simple Icons</p>
+            </div>
         </footer>
     </body>
 </html>
