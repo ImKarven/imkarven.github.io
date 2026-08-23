@@ -186,7 +186,7 @@ footer {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-around;
     font-family: "Jetbrains Mono";
     font-size: 1rem;
 
@@ -205,6 +205,7 @@ footer {
 
 .footer-column p {
     color: #bbbbbb;
+    max-width: 70%;
 }
 
 .footer-column a {
