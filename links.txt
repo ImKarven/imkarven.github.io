@@ -1,0 +1,7 @@
+discord=https://devdiscord.karven.qzz.io/
+modrinth=https://modrinth.com/user/Karven
+github=https://github.com/ImKarven
+youtube=https://www.youtube.com/@karv%C9%99n
+email=mailto:karven@atomicmail.io
+orderium=https://modrinth.com/plugin/orderium
+leviathan-ocean=https://modrinth.com/datapack/levio
